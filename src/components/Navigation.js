@@ -6,7 +6,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = ({ userObj }) => {
    
-    return userObj.displayName && (
+    return (
       <nav>
         <ul style={{ display: "flex", justifyContent: "center", marginTop: 50 }}>
           <li>
